@@ -1,16 +1,164 @@
-# React + Vite
+# 🌙 **Taskify — A Minimal, Modern & Aesthetic Todo App**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Taskify is a **premium dark-themed productivity app** built with **React + TailwindCSS + Framer Motion**.
+Designed with a **Linear-inspired glass aesthetic**, Taskify brings clarity and beauty to your daily workflow.
 
-Currently, two official plugins are available:
+✨ Smooth animations
+✨ Glassmorphism UI
+✨ Gradient accents
+✨ Satisfying check-off interactions
+✨ Sound feedback
+✨ LocalStorage persistence
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Taskify is built to feel like a real, modern productivity tool — fast, elegant, and delightful.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 **Live Demo**
+https://todo-list-app-2025.vercel.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# 📸 **Preview**
+
+<img width="636" height="666" alt="image" src="https://github.com/user-attachments/assets/ec74e5cd-b754-48de-b5be-df08c4973c7c" />
+
+
+---
+
+# ✨ **Features**
+
+### 🎨 **Beautiful Dark UI**
+
+* Linear/Arc-inspired design
+* Pastel gradients
+* Soft shadows
+* Clean typography
+* Subtle glass elements
+
+### 📝 **Intuitive Task Management**
+
+* Add new tasks
+* Toggle tasks as completed
+* Delete individual tasks
+* Clear all tasks with one click
+
+### 🎧 **Satisfying Sound Effects**
+
+* Gentle “ding” when marking a task as done
+
+### 💾 **Persistent Storage**
+
+* Tasks are automatically saved using `localStorage`
+* Your todos stay even after refreshing or reopening the browser
+
+### 🪄 **Premium Animations**
+
+ **Framer Motion**:
+
+* Smooth fade/slide transitions
+* Task pop-in effects
+* Animated layout changes
+
+### 🧮 **Progress Tracking**
+
+* See how many tasks you've completed
+* Beautiful animated progress bar
+
+### 🪟 **Delightful UI Components**
+
+* Glassmorphic input box
+* Gradient-accented Action buttons
+* Elegant empty state
+* Task cards with glowing accents
+
+---
+
+# 🛠 **Built With**
+
+| Technology        | Purpose                 |
+| ----------------- | ----------------------- |
+| **React**         | Component logic         |
+| **TailwindCSS**   | Styling + design system |
+| **Framer Motion** | Animations              |
+| **Lucide Icons**  | Clean modern icons      |
+| **LocalStorage**  | Data persistence        |
+
+---
+
+# 📁 **Project Structure**
+
+```
+src/
+ ├── Components/
+ │    ├── Navbar.jsx
+ │    ├── TodoInput.jsx
+ │    ├── TodoItem.jsx
+ │    └── TodoList.jsx
+ │
+ ├── App.jsx
+ ├── App.css
+ ├── main.jsx
+ └── index.css
+```
+
+---
+
+# 🧩 **How It Works**
+
+### ➤ Add Tasks
+
+Use the input box to create a new task. Press **Enter** or click **Add**.
+
+### ➤ Complete Tasks
+
+Click the custom checkbox — enjoy a mini glow + sound reward.
+
+### ➤ Delete Tasks
+
+Hover over a task to reveal a delete icon.
+
+### ➤ Clear All Tasks
+
+Click *Clear All Tasks* in the Navbar.
+
+### ➤ Progress Tracking
+
+Beautiful summary indicator shows:
+
+* Total tasks
+* Completed tasks
+* Dynamic progress bar
+
+---
+
+# 🧪 **Installation & Setup**
+
+```sh
+# Clone repository
+git clone https://github.com/YOUR_USERNAME/taskify
+
+# Enter project folder
+cd taskify
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+---
+
+# 🧑‍💻 **Author**
+
+**Rehan**
+Frontend Developer, UI Enthusiast
+Loves creating aesthetic, clean, modern web applications.
+
+If you like this project, ⭐ star the repo — it helps a lot!
+
+---
+
+
